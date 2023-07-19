@@ -1,6 +1,8 @@
 import sys
 
-if len(sys.argv) != 2:
-    print("Usage: python hello.py <your_name>")
-else:
-    print("Hello,", sys.argv[1])
+user_name = "Luis"
+
+if len(sys.argv) == 2:
+    user_name = sys.argv[1]
+
+print("Hello,", user_name)
