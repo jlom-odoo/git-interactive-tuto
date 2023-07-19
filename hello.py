@@ -1,3 +1,5 @@
+# Author: JLOM (jlom@odoo.com)
+
 import sys
 
 # When no name provided, default is Luis
