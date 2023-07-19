@@ -1,5 +1,6 @@
 import sys
 
+# When no name provided, default is Luis
 user_name = "Luis"
 
 if len(sys.argv) == 2:
